@@ -3,27 +3,12 @@ layout: page
 title: Contact
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+Twitter is my preferred communication channel for work stuff, you can find me 
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+If you want to slide in my dms, I'm [@junaidrahxm](https://www.instagram.com/junaidrahxm/) on instagram and [@zebion](https://t.me/zebion) on telegram.
 
-There are currently two themes built on Poole:
+For all code related things, find my GitHub at [github.com/junaidrahim](https://github.com/junaidrahim)
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+I hate opening LinkedIn, I only do it on weekends when I have the energy to cope with the crap on my feed. Here's [my profile](https://www.linkedin.com/in/junaidrahim/) anyway.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](https://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Atom](https://atom.io)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+If it's something serious, you can email me at `junaidrahim5a [at] gmail [dot] com`
