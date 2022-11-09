@@ -5,7 +5,7 @@ title: About
 
 👋🏻 Hi, I'm Junaid
 
-"technically" I am a senior at [KIIT, Bhubaneshwar](http://kiit.ac.in/) studying Computer Science and Engineering.
+I am a senior at [KIIT, Bhubaneshwar](http://kiit.ac.in/) studying Computer Science and Engineering.
 
 I did not enjoy college that much during the pandemic so I kind of quiet quit my degree and started working, thus I am currently working as a SWE in the Platform team at [Atlan](https://atlan.com/).
 
