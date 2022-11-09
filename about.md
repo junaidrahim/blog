@@ -7,7 +7,7 @@ title: About
 
 I am a senior at [KIIT, Bhubaneshwar](http://kiit.ac.in/) studying Computer Science and Engineering.
 
-I did not enjoy college that much during the pandemic so I kind of quiet quit my degree and started working, thus I am currently working as a SWE in the Platform team at [Atlan](https://atlan.com/).
+I did not enjoy college that much during the pandemic so I kind of quiet quit my degree and started working, I am currently working as a SWE in the Platform team at [Atlan](https://atlan.com/).
 
 At Atlan, I work in the Platform Orchestration team, it's responsible for building all the integrations available on the platform. Lately I've been working mostly in backend and systems development. Currently working with Argo Workflows, Kubernetes and Graph Databases.
 
