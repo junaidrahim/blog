@@ -4,7 +4,7 @@ slug: the-well-rounded-engineer
 date_published: 2021-12-15T15:13:54.000Z
 date_updated: 2021-12-15T15:17:54.000Z
 layout: post
-preamble: This is just a one line description for the post
+preamble: What does it mean to have high technical skill as a (software) engineer ? Most of the content of this article is borrowed from a talk by Swanand Pagnis on the very same topic.
 ---
 
 Most of the content of this article is borrowed from a talk by [Swanand Pagnis](https://twitter.com/_swanand) on the very same topic. You can find the original slides [here](https://speakerdeck.com/swanandp/the-well-rounded-engineer).

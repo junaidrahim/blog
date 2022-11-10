@@ -9,7 +9,7 @@ A few weeks ago, I wrote about my [interview experience for the backend engineer
 
 I started my internship on 8th June 2021. I had just finished my 2nd year of engineering.
 
-It’s been a year since my first day at Atlan, one year is a long time to reflect over, if I listed down every single thing floating in my head about the past year, you would close the tab out of boredom, so I’ll summarise it in terms of **work**, **people and culture**, **lessons learnt **and **looking forward**.
+It’s been a year since my first day at Atlan, one year is a long time to reflect over, if I listed down every single thing floating in my head about the past year, you would close the tab out of boredom, so I’ll summarise it in terms of **work**, **people and culture**, **lessons learnt** and **looking forward**.
 
 ## Work
 
