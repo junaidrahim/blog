@@ -6,15 +6,15 @@ title: Blog
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
-    <h1 class="post-title">
+    <h3 class="post-title">
       <a href="{{ post.url | absolute_url }}">
         {{ post.title }}
       </a>
-    </h1>
+    </h3>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <span class="post-date" style="font-size: 0.8rem">{{ post.date | date_to_string }}</span>
 
-    {{ post.content }}
+    {{ post.preamble }}
   </div>
   {% endfor %}
 </div>

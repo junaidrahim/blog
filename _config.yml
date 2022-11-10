@@ -16,6 +16,7 @@ author:
 # Gems
 plugins:
   - jekyll-paginate
+  - jekyll-twitter-plugin
 
 # Custom vars
 version:             1.0
