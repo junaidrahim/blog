@@ -2,7 +2,7 @@
 title:               Junaid Rahim
 tagline:             ''
 description:         "Hey, I'm Junaid.<br> I'm building systems and data pipelines at <a href='https://atlan.com'>Atlan</a>."
-url:                 https://junaidrahim.github.io/blog
+url:                 https://junaidrahim.github.io
 baseurl:             ''
 paginate:            5
 permalink:           pretty
