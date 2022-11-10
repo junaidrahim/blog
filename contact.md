@@ -3,7 +3,7 @@ layout: page
 title: Contact
 ---
 
-Twitter is my preferred communication channel for work stuff, you can find me 
+Twitter is my preferred communication channel for work stuff, you can find me [@junaidrahxm](https://twitter.com/junaidrahxm).
 
 If you want to slide in my dms, I'm [@junaidrahxm](https://www.instagram.com/junaidrahxm/) on instagram and [@zebion](https://t.me/zebion) on telegram.
 
