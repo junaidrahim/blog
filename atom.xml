@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Junaid Rahim</title>
+ <link href="https://junaidrahim.in/atom.xml" rel="self"/>
+ <link href="https://junaidrahim.in/"/>
+ <updated>2022-11-10T13:33:04+00:00</updated>
+ <id>https://junaidrahim.in</id>
+ <author>
+   <name>Junaid Rahim</name>
+   <email>junaidrahim5a@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Atlan's Backend Internship Experience</title>
+   <link href="https://junaidrahim.in/2022/06/07/atlans-internship-experience/"/>
+   <updated>2022-06-07T00:00:00+00:00</updated>
+   <id>https://junaidrahim.in/2022/06/07/atlans-internship-experience</id>
+   <content type="html">&lt;p&gt;A few weeks ago, I wrote about my &lt;a href=&quot;/2022/05/07/backend-internship-interview-experience-at-atlan/&quot;&gt;interview experience for the backend engineering intern role at Atlan&lt;/a&gt;. I wanted to do a follow up article discussing the real thing – how the internship went, what I learnt, and what can you expect from interning here.&lt;/p&gt;
+
+&lt;p&gt;I started my internship on 8th June 2021. I had just finished my 2nd year of engineering.&lt;/p&gt;
+
+&lt;p&gt;It’s been a year since my first day at Atlan, one year is a long time to reflect over, if I listed down every single thing floating in my head about the past year, you would close the tab out of boredom, so I’ll summarise it in terms of &lt;strong&gt;work&lt;/strong&gt;, &lt;strong&gt;people and culture&lt;/strong&gt;, &lt;strong&gt;lessons learnt&lt;/strong&gt; and &lt;strong&gt;looking forward&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;work&quot;&gt;Work&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://blog.junaidrahim.in/content/images/2022/06/Screenshot-2022-06-07-at-9.52.09-AM.png&quot; alt=&quot;&quot; /&gt;Donut is our onboarding bot, it guides you through your first week. This is what my first day looked like at Atlan.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-is-atlan-&quot;&gt;What is Atlan ?&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://atlan.com/&quot;&gt;Atlan&lt;/a&gt; is a collaborative workspace for Data teams. Engineering teams have Github, Sales teams have Hubspot, Design teams have Figma, but there’s no home for data teams. A place where they can collaborate and get work done.&lt;/p&gt;
+
+&lt;p&gt;In simple words, Atlan connects to various databases and BI tools in your data stack and pulls in all the metadata, on top of that metadata we offer a ton of collaborative features that help you with data discovery, lineage, data quality, documentation etc. You can read more about it &lt;a href=&quot;https://prukalpa.medium.com/&quot;&gt;here&lt;/a&gt; and &lt;a href=&quot;https://atlan.com/about/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;what-did-i-work-on-&quot;&gt;What did I work on ?&lt;/h3&gt;
+
+&lt;p&gt;After joining, I was a part of the platform team, this is the team responsible for building the services that make up the Atlan platform. This platform powers the product and the integrations that help users connect to various metadata sources on Atlan. I started my internship with the platform orchestration team, this is the team responsible for two broad things –&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;building out the ecosystem of integrations on Atlan&lt;/li&gt;
+  &lt;li&gt;developing and documenting the tools to build these integrations&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;My contributions at work has revolved around these two themes, building SQL and BI integrations and working on all the necessary tooling to make it easier to build integrations. This involved mostly working with Argo Workflows, Kubernetes, Apache Atlas, Python, JS, Kotlin and SQL. And YAML, lots of argo workflow YAML.&lt;/p&gt;
+
+&lt;p&gt;I had joined when we were half way there building the next iteration of the product, I witnessed the rollout of my integrations on customer production instances and got a chance to learn from all the bugs and customer issues that came up next.&lt;/p&gt;
+
+&lt;p&gt;This is one of the reasons why I wanted my internship to be at least 6 months, building something, witnessing all the edge cases in prod and then fixing them while communicating correctly what went wrong was something I really wanted to go through.&lt;/p&gt;
+
+&lt;h2 id=&quot;people-and-culture&quot;&gt;People and Culture&lt;/h2&gt;
+
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;sometimes you get off the phone with a colleague and you just go&lt;br /&gt;&lt;br /&gt;&amp;quot;thank god you play on our team&amp;quot;&lt;/p&gt;&amp;mdash; Swaminathan Kumar (@swamusing) &lt;a href=&quot;https://twitter.com/swamusing/status/1527638653878476800?ref_src=twsrc%5Etfw&quot;&gt;May 20, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I always keep coming back to this wonderful tweet by my colleague for the people vibe. Working at Atlan has been pretty amazing – remote first, flexible hours, weekends are respected, high trust and ownership, all meetings are open by default.&lt;/p&gt;
+
+&lt;p&gt;I was never treated like an “intern” as such, I was treated and trusted just like a full-time employee from day 1. This trust on me since day 1 was a huge boost to my motivation to show up daily and try my best, even when things got hard.&lt;/p&gt;
+
+&lt;p&gt;Internships here have a good mix of mentorship and ownership. You will be trusted with delivering important things but there are people to help you out and guide you if you get stuck. And you get the freedom to come up with bold ideas and run with them.&lt;/p&gt;
+
+&lt;p&gt;The quarterly meet-ups with the team were pretty fun too. We usually fly out to a new city for a week or two and work together out of a WeWork. Food, Travel and Stay is on the company 😉&lt;/p&gt;
+
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;past week with &lt;a href=&quot;https://twitter.com/AtlanHQ?ref_src=twsrc%5Etfw&quot;&gt;@AtlanHQ&lt;/a&gt; folks in Delhi ✨ &lt;a href=&quot;https://t.co/qQDfZUdxGD&quot;&gt;pic.twitter.com/qQDfZUdxGD&lt;/a&gt;&lt;/p&gt;&amp;mdash; Junaid Rahim (@junaidrahxm) &lt;a href=&quot;https://twitter.com/junaidrahxm/status/1507296041166848000?ref_src=twsrc%5Etfw&quot;&gt;March 25, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Also another sweet perk of interning here 🥹&lt;/p&gt;
+
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Got featured on the NASDAQ Building with my amazing teammates &lt;a href=&quot;https://twitter.com/AtlanHQ?ref_src=twsrc%5Etfw&quot;&gt;@AtlanHQ&lt;/a&gt; 🤩🤩❤️😭🥺🎉&lt;a href=&quot;https://twitter.com/hashtag/HumansOfAtlan?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#HumansOfAtlan&lt;/a&gt; &lt;a href=&quot;https://t.co/nBgoZbjDwz&quot;&gt;pic.twitter.com/nBgoZbjDwz&lt;/a&gt;&lt;/p&gt;&amp;mdash; Junaid Rahim (@junaidrahxm) &lt;a href=&quot;https://twitter.com/junaidrahxm/status/1435267762796969985?ref_src=twsrc%5Etfw&quot;&gt;September 7, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Atlan put up a pic of everyone in the company on the NASDAQ building in Times Square as a token of appreciation.&lt;/p&gt;
+
+&lt;h2 id=&quot;lessons-learnt&quot;&gt;Lessons Learnt&lt;/h2&gt;
+
+&lt;p&gt;I’ll do quick one-liners for all the small and big lessons I’ve learnt over my last one year here.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Squash your commits.&lt;/li&gt;
+  &lt;li&gt;DAGs are amazing.&lt;/li&gt;
+  &lt;li&gt;Never run. Always debug.&lt;/li&gt;
+  &lt;li&gt;Review and Iterate.&lt;/li&gt;
+  &lt;li&gt;Over-communicate. No matter what.&lt;/li&gt;
+  &lt;li&gt;Writing is how you build clarity. Write more.&lt;/li&gt;
+  &lt;li&gt;Invest time in building good dev tooling. So worth it.&lt;/li&gt;
+  &lt;li&gt;Take Action. Ideas are not worth shit if not executed well.&lt;/li&gt;
+  &lt;li&gt;Don’t be afraid of that codebase. If code is magic then you are a magician too.&lt;/li&gt;
+  &lt;li&gt;Using indexed array operators &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;[]&lt;/code&gt; is the easiest way to break prod. Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.get&lt;/code&gt; pls.&lt;/li&gt;
+  &lt;li&gt;Engineering is creative work. You will have sparks of creative genius every once in a while. DO NOT LET THEM GO. Grab a pen/keyboard. It’s worth it.&lt;/li&gt;
+  &lt;li&gt;Try to spend at least 4 hours a day in flow state. Mute everything. Slack can wait. This is what you do consistently to improve as an engineer.&lt;/li&gt;
+  &lt;li&gt;Metadata is a bitch, it will come back down that TCP socket in shapes you can’t even imagine. Use a try catch. Design good error handling.&lt;/li&gt;
+  &lt;li&gt;The upside to knowing multiple programming languages is immense. Especially when working at a polyglot company.&lt;/li&gt;
+  &lt;li&gt;Good tests are a lot harder to write than you think. It’s not just slapping a test per function and you’re good to go.&lt;/li&gt;
+  &lt;li&gt;Software is a team sport. All-stars don’t help much in the long run. It’s all about what you can move as a team.&lt;/li&gt;
+  &lt;li&gt;Listen to customers. Go on that call. Listen to that zoom recording. Your code isn’t worth shit if it does not solve someone’s problem.&lt;/li&gt;
+  &lt;li&gt;Communication is a lot less about what you say and a lot more about what the other side heard. TCP vs UDP.&lt;/li&gt;
+  &lt;li&gt;Slow down. Understand the problem. Do not make that hot-fix. It’ll just come back to haunt you later.&lt;/li&gt;
+  &lt;li&gt;You can’t do amazing work if you don’t take care of yourself. Workout, Sleep, Eat right.&lt;/li&gt;
+  &lt;li&gt;Spending some time daily to reflect and write is worth it.&lt;/li&gt;
+  &lt;li&gt;The difference between junior and senior is now all about mindset and impact they create. Go after that mindset.&lt;/li&gt;
+  &lt;li&gt;Don’t get emotionally attached to your code. It’s meant to die, it’s meant to evolve.&lt;/li&gt;
+  &lt;li&gt;Own your L’s. Own your shit. Startups are all about people who say they’ll get it done and then actually get it done. Be that guy.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;looking-forward&quot;&gt;Looking Forward&lt;/h2&gt;
+
+&lt;p&gt;Atlan is solving an interesting problem in the data industry and the past year has been one crazy year of growing in all aspects of being an engineer. I have a much deeper sense of the problems that interest me. I have a much deeper sense of the kind of work I want to do.&lt;/p&gt;
+
+&lt;p&gt;I’m driven by people who believe in good engineering. Who believe in good engineering design. Who think and draw and discuss before they touch their keyboard. Atlan is a wonderful place to start your career if you’re into that kind of engineering.&lt;/p&gt;
+
+&lt;p&gt;Super grateful to all my mentors - &lt;a href=&quot;https://www.linkedin.com/in/amitprabhu4/&quot;&gt;Amit&lt;/a&gt;, &lt;a href=&quot;https://www.linkedin.com/in/tripathimukund/&quot;&gt;Mukund&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/bankavarun&quot;&gt;Varun&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/unshulmehta&quot;&gt;Anshul&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/louisnoww&quot;&gt;Louis&lt;/a&gt; just to name a few. Thank you so much for all the love and lessons.&lt;/p&gt;
+
+&lt;p&gt;I have my final year of college left. I started my journey as a full time engineer this month.&lt;/p&gt;
+
+&lt;p&gt;It’s still day 1.&lt;/p&gt;
+
+&lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;I GOT AN INTERNSHIP WITH &lt;a href=&quot;https://twitter.com/AtlanHQ?ref_src=twsrc%5Etfw&quot;&gt;@AtlanHQ&lt;/a&gt;  😭😭😭😍🎉&lt;/p&gt;&amp;mdash; Junaid Rahim (@junaidrahxm) &lt;a href=&quot;https://twitter.com/junaidrahxm/status/1400065390949011462?ref_src=twsrc%5Etfw&quot;&gt;June 2, 2021&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Interview Experience - Backend Engineering Internship at Atlan</title>
+   <link href="https://junaidrahim.in/2022/05/07/backend-internship-interview-experience-at-atlan/"/>
+   <updated>2022-05-07T00:00:00+00:00</updated>
+   <id>https://junaidrahim.in/2022/05/07/backend-internship-interview-experience-at-atlan</id>
+   <content type="html">&lt;p&gt;I had interviewed for the &lt;a href=&quot;https://atlan.com/careers/internships-product/backend-engineering-internship-6-months/18fdd3a4-79e5-4718-8147-6b8caccec1bb&quot;&gt;backend engineering internship role&lt;/a&gt; at &lt;a href=&quot;https://atlan.com/&quot;&gt;Atlan&lt;/a&gt; in May 2021 and managed to get in, just wanted to share my experience and some tips around the same.&lt;/p&gt;
+
+&lt;h2 id=&quot;tldr&quot;&gt;tl;dr&lt;/h2&gt;
+
+&lt;p&gt;I had applied on the opening via AngelList, sent in my resume and a cover letter explaining why I thought I was a good fit.&lt;/p&gt;
+
+&lt;p&gt;After that I got a mail from the recruiter with a take home project, I had a week and a half to submit. It was a 3 page google doc explaining a product requirement,  I was asked to submit -&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;A Design Specification&lt;/li&gt;
+  &lt;li&gt;A comprehensive explanation / pro-con analysis of the various approaches I evaluated before arriving to this solution&lt;/li&gt;
+  &lt;li&gt;Implementation of the design spec&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The challenge overall was pretty fun, it involved bits of design thinking, coding and writing. Luckily they loved my submission and I was invited for an hour long technical interview with one of the senior engineers on the team, this interview was mostly discussing my background and my submission, what could be improved etc. No leet coding (thank god).&lt;/p&gt;
+
+&lt;p&gt;The technical interview went great and after that I was invited for a cultural interview with the co-founder, mostly discussing why I wanted to join and  him answering some questions I had around the product and the company.&lt;/p&gt;
+
+&lt;p&gt;A day later, I finally got “that” call from the recruiter, saying that they wanted to make me an offer. I started my internship on 8th June 2021.&lt;/p&gt;
+
+&lt;h2 id=&quot;applying&quot;&gt;Applying&lt;/h2&gt;
+
+&lt;p&gt;This was May 2021, I had just finished my second year and I was looking for internships in mid sized startups for a backend / systems engineering role. I discovered an opening in Atlan for the same via their &lt;a href=&quot;https://angel.co/company/atlanhq&quot;&gt;AngelList&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I sent in my resume with a cover letter, they liked my application and I got a reply from the recruiter two days later with a take home project / challenge.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-challenge&quot;&gt;The Challenge&lt;/h2&gt;
+
+&lt;p&gt;It was a system design problem that stemmed from a feature in one of their products. They sent a google doc which was 3 pages long explaining the feature and the problem statement, it also covered the requirements around scale, latency and observability.&lt;/p&gt;
+
+&lt;p&gt;I was asked to submit the following things on completion -&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;A Design Specification&lt;/li&gt;
+  &lt;li&gt;A comprehensive explanation / pro-con analysis of the various approached I evaluated before arriving to this solution&lt;/li&gt;
+  &lt;li&gt;Implementation of the design spec (proof of concept)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I had a week and a half to create all of this and send it, it took me a few hours of deep work and iterations to finally arrive at the final design. I implemented the system using Golang and Python and then dockerized the whole thing, wrote up a README and some documentation.&lt;/p&gt;
+
+&lt;p&gt;I had written a rough draft of the design spec before I started with my code, so I spent a day polishing the design spec and writing the pro-con analysis. Zipped up all of this and submitted a day before the deadline with fingers crossed.&lt;/p&gt;
+
+&lt;h2 id=&quot;technical-interview&quot;&gt;Technical Interview&lt;/h2&gt;
+
+&lt;p&gt;The recruiter called me a few days later and said that they had liked my solution and wanted to setup a technical interview with one of the senior engineers on the team. I asked him if I will have to solve any leetcode type problems in the interview – he said no, it’ll be only questions regarding my submission.&lt;/p&gt;
+
+&lt;p&gt;It was an hour long interview, we started off the first 10 minutes with him giving a background story on the company and what he does at Atlan. Then we continued to discuss my background, how I got started, my projects / interests. We had a conversation around engineering culture at Atlan, the tech they use etc.&lt;/p&gt;
+
+&lt;p&gt;We spent the last 20 minutes discussing my solution - what he liked, what he thought could be improved. He brought up an edge case in my system and asked me how I would go about fixing it, I reached the right solution after a hint. This led to a discussion on event driven systems and how various databases offer different ways to hook up handlers on various events.&lt;/p&gt;
+
+&lt;p&gt;The interview went great, he said loved my implementation and my design, he closed with – “&lt;em&gt;It’s a green signal from my end Junaid, you’ll mostly have your cultural interview in a few days. I would love to have you on my team and I look forward to working with you!&lt;/em&gt;” – I was smiling like an idiot, I did not expect that the interview verdict will be handed to me at the end like this.&lt;/p&gt;
+
+&lt;p&gt;That evening, the recruiter sent me an invite for the cultural interview.&lt;/p&gt;
+
+&lt;h2 id=&quot;cultural-interview&quot;&gt;Cultural Interview&lt;/h2&gt;
+
+&lt;p&gt;My cultural interview was with the co-founder, again an hour long interview  – which was basically a bro date.&lt;/p&gt;
+
+&lt;p&gt;He started off asking questions about where I was from, my childhood, school and college experience. He asked me about why I wanted to work for a start-up, why I chose this career, what I wanted to do in my career long-term.&lt;/p&gt;
+
+&lt;p&gt;Then we discussed some of my side-projects and my plans for them. I asked him why he started Atlan, what problems he was interested in. I asked him some questions about productivity and remote work, which led to a nice discussion about our favourite Paul Graham essays. He recommended me some books.&lt;/p&gt;
+
+&lt;p&gt;It was more like talking to a friend than a job interview.&lt;/p&gt;
+
+&lt;p&gt;And that was it, a day later the recruiter called me to give the good news. I’ve added a timeline below with dates, the process took around 2-3 weeks.&lt;/p&gt;
+
+&lt;h3 id=&quot;timeline&quot;&gt;Timeline&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;10th May 2021 - Applied on AngelList&lt;/li&gt;
+  &lt;li&gt;12th May 2021 - Received mail for the Challenge&lt;/li&gt;
+  &lt;li&gt;21st May 2021 - Sent the submission&lt;/li&gt;
+  &lt;li&gt;26th May 2021 - Recruiter called and explained the process going ahead&lt;/li&gt;
+  &lt;li&gt;28th May 2021 - Technical Interview&lt;/li&gt;
+  &lt;li&gt;1st June 2021 - Cultural Interview&lt;/li&gt;
+  &lt;li&gt;2nd June 2021 - Got the offer&lt;/li&gt;
+  &lt;li&gt;8th June 2021 - Started my Internship&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I also did a podcast episode with a close friend of mine around this very topic, you can find it below&lt;/p&gt;
+
+&lt;h2 id=&quot;some-tips-and-resources&quot;&gt;Some Tips and Resources&lt;/h2&gt;
+
+&lt;p&gt;The only tip I’d give is to solve the challenge really well, that will decide if you make it through or not. Bring in your A game in terms of quality and clarity.&lt;/p&gt;
+
+&lt;p&gt;Atlan’s hiring culture for intern roles is built around this principle that it’s all about the quality of work you produce, not your past experience or your degree or if you’re from a fancy college or not. Show them that you can build amazing things. Don’t half ass your challenge submission.&lt;/p&gt;
+
+&lt;p&gt;Just listing down some of the resources that helped me with the challenge -&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/&quot;&gt;Designing Data Intensive Applications&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.oreilly.com/library/view/designing-distributed-systems/9781491983638/&quot;&gt;Designing Distributed Systems&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.industrialempathy.com/posts/design-docs-at-google/&quot;&gt;Design Docs at Google&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.oreilly.com/library/view/kafka-the-definitive/9781491936153/&quot;&gt;Kafka: The Definitive Guide&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;follow-up&quot;&gt;Follow Up&lt;/h3&gt;
+
+&lt;p&gt;I’ll write a follow-up article to this one going over how the internship went, what I worked on, what I learnt. I’ll be starting my journey at Atlan as a full time engineer in a few weeks and this felt like a good time to reflect on the past 10 months and share some lessons.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>The Well Rounded Engineer</title>
+   <link href="https://junaidrahim.in/2021/12/15/the-well-rounded-engineer/"/>
+   <updated>2021-12-15T00:00:00+00:00</updated>
+   <id>https://junaidrahim.in/2021/12/15/the-well-rounded-engineer</id>
+   <content type="html">&lt;p&gt;Most of the content of this article is borrowed from a talk by &lt;a href=&quot;https://twitter.com/_swanand&quot;&gt;Swanand Pagnis&lt;/a&gt; on the very same topic. You can find the original slides &lt;a href=&quot;https://speakerdeck.com/swanandp/the-well-rounded-engineer&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;What does it mean to have high technical skill as a (software) engineer ?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If you have started your journey into programming and building things with code, you must have wondered about this question a lot. How do I become a “good” engineer ? How do I grow my technical skillset ?&lt;/p&gt;
+
+&lt;p&gt;I tried to look for answers to this question when I started my first year of undergrad. This talk was one of the most moving things I read that made a huge impact in the way I understood technical growth. And it had a ton of awesome resources too. I wanted to share this talk with this community especially with people who are just starting out.&lt;/p&gt;
+
+&lt;p&gt;This talk was targeted for an audience who had experience writing web apps — especially backend services. But I’ll try to fill in the context wherever needed so new people in tech can understand this too.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;some-first-principles&quot;&gt;Some First Principles&lt;/h3&gt;
+
+&lt;p&gt;These are just some basic principles you should definitely try to implement in your learning process to make it more effective.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Find peers to learn things&lt;/li&gt;
+  &lt;li&gt;Be accountable&lt;/li&gt;
+  &lt;li&gt;Hold them accountable&lt;/li&gt;
+  &lt;li&gt;Get rid of the trial and error method&lt;/li&gt;
+  &lt;li&gt;Take a very analytical approach&lt;/li&gt;
+  &lt;li&gt;Learn how to read research papers especially old one’s, focus on papers that describe tech that has stood the test of time&lt;/li&gt;
+  &lt;li&gt;Take Notes, write down summaries in your own words.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Here are the topics/things you should try to be proficient in if you are looking for that next phase of technical growth.&lt;/p&gt;
+
+&lt;h3 id=&quot;multiple-paradigms&quot;&gt;Multiple Paradigms&lt;/h3&gt;
+
+&lt;p&gt;The first one is pretty common and obvious, be proficient in multiple programming paradigms, preferably Object Oriented and Functional. Learning about multiple paradigms opens your mind to a whole variety of ways of writing programs.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;OO Languages: C++, Java, Kotlin, Python, Golang(kinda)&lt;/li&gt;
+  &lt;li&gt;Functional Languages: Haskell, Clojure&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Most languages you will use to learn OOP will also support functional paradigms so you can get started with FP in them too. But learning a purely functional language is really insightful. Some book recommendations and resources for learning about programming paradigms&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Prof. Dan Grossman’s course “Programming Languages” on Coursera.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://learnyouahaskell.com/introduction&quot;&gt;http://learnyouahaskell.com/introduction&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.info.ucl.ac.be/~pvr/VanRoyChapter.pdf&quot;&gt;Programming Paradigms for Dummies: What every Programmer should know&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html&quot;&gt;Structure and Interpretation of Computer Programs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;multiple-types-of-databases&quot;&gt;Multiple Types of Databases&lt;/h3&gt;
+
+&lt;p&gt;Be proficient in using at least two kinds of Databases. SQL and NoSQL.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;SQL Databases: Postgres, MySQL&lt;/li&gt;
+  &lt;li&gt;NoSQL Databases: MongoDB, DynamoDB, BigTable&lt;/li&gt;
+  &lt;li&gt;Other: Redis, Neo4j, JanusGraph, Spanner&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Being conversant in databases usually mean you can model your data, you are aware of the factors that affect the performance of the db, you can write raw SQL queries.&lt;/p&gt;
+
+&lt;p&gt;Being proficient means you understand how to operate that database on scale, you understand idiomatic design patterns, you deeply understand SQL and can look at queries and understand the performance tradeoffs. A lot of being proficient in databases is about understanding tradeoffs. In depth understanding of SQL is a huge competitive advantage.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://theartofpostgresql.com/&quot;&gt;The Art of PostgreSQL&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.oreilly.com/library/view/high-performance-mysql/9781449332471/&quot;&gt;High Performance SQL&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.mongodb.com/&quot;&gt;https://docs.mongodb.com/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://redis.com/ebook/redis-in-action/&quot;&gt;Redis in Action&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pragprog.com/titles/pwrdata/seven-databases-in-seven-weeks-second-edition/&quot;&gt;Seven Databases in Seven Weeks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.redbook.io/&quot;&gt;Readings in Database Systems&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.allthingsdistributed.com/files/p1041-verbitski.pdf&quot;&gt;Amazon Aurora: Design Considerations for High Throughput Cloud-Native Relational Databases&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.dynamodbguide.com/&quot;&gt;DynamoDB Book&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;multiple-protocols&quot;&gt;Multiple Protocols&lt;/h3&gt;
+
+&lt;p&gt;Be proficient in at least two protocols — preferably TCP/IP and HTTP. Proficiency means understanding how these protocols work, how to debug, design considerations, familiarity with TLS &amp;amp; SSL etc.&lt;/p&gt;
+
+&lt;p&gt;These protocols are everywhere on the web and you will deal with them on a daily basis, having a fundamental understanding of these protocols — how they are designed, why they are designed that way goes a long way into helping you making the right decisions when building and debugging&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.oreilly.com/library/view/restful-web-services/9780596529260/&quot;&gt;RESTful Web Services&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.oreilly.com/library/view/http-the-definitive/1565925092/&quot;&gt;HTTP: The Definitive Guide&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://datatracker.ietf.org/doc/html/rfc7231&quot;&gt;RFC 7231: Hypertext Transfer Protocol&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;data-driven-programming&quot;&gt;Data Driven Programming&lt;/h3&gt;
+
+&lt;p&gt;Data Driven Programming is basically the whole domain of ML/AI. This is a fundamentally different way of writing programs, traditionally we write the steps of the program, ML algorithms and neural nets are all about figuring out these steps from the data itself.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Traditional programming: Input + Program = Output&lt;/li&gt;
+  &lt;li&gt;Data Driven Programming: Input + Output = Program&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Most of the tools for ML/AI are in Python. But you can also do it in Julia. Just have a go at either TensorFlow or PyTorch, you will learn a ton about how statistics and calculus can be used to do pattern matching and solve problems that are very hard to solve by writing down the instructions.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://pytorch.org/docs/stable/index.html&quot;&gt;https://pytorch.org/docs/stable/index.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.tensorflow.org/api_docs&quot;&gt;https://www.tensorflow.org/api_docs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.deeplearningbook.org/&quot;&gt;https://www.deeplearningbook.org/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/&quot;&gt;Hands on Machine Learning with Scikit Learn and Tensorflow&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ai.facebook.com/blog/advancing-ai-theory-with-a-first-principles-understanding-of-deep-neural-networks/&quot;&gt;The Principles of Deep Learning Theory&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;build-tooling-packaging-and-distribution-of-software&quot;&gt;Build Tooling, Packaging and Distribution of Software&lt;/h3&gt;
+
+&lt;p&gt;Understanding how the code you write reaches your users. For python developers this would be to understand use tools like pipenv, virtualenv, poetry etc. For JS devs it would be understand babel and webpack. Understanding these tools and knowing enough to tweak, change what’s needed. Try writing a very simple build tool. Think about opinionated directory structures and building/compiling multiple files together.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://webpack.js.org/&quot;&gt;https://webpack.js.org/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://packaging.python.org/en/latest/tutorials/packaging-projects/&quot;&gt;https://packaging.python.org/en/latest/tutorials/packaging-projects/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;deployment-infrastructure-and-devops&quot;&gt;Deployment, Infrastructure and DevOps&lt;/h3&gt;
+
+&lt;p&gt;This is about how your code is deployed on servers. Read about how containerisation and container orchestration systems works. You have probably heard of Docker and Kubernetes. Dig deep into these ecosystems and learn how to build apps that can be deployed and scaled on Kubernetes.&lt;/p&gt;
+
+&lt;p&gt;Understanding the capabilities of Kubernetes will help you work with a variety of cloud technologies that make the modern web possible. This also includes a lot of various practices that enable GitOps and Agile software delivery.&lt;/p&gt;
+
+&lt;p&gt;You can also have a look at the various projects incubated by CNCF.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://roadmap.sh/devops&quot;&gt;https://roadmap.sh/devops&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kubernetes.io/docs/home/&quot;&gt;https://kubernetes.io/docs/home/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.docker.com/&quot;&gt;https://docs.docker.com/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://youtu.be/8fi7uSYlOdc&quot;&gt;Containers from Scratch&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;system-design-and-scaling-techniques&quot;&gt;System Design and Scaling Techniques&lt;/h3&gt;
+
+&lt;p&gt;If you are interested in backend development, then this is a very important skill to have. Make an effort to understand the common design pattens and scaling techniques. This is about understanding the design principles that go into building systems that have a certain set of properties — Consistency, Fault Tolerance, Availability etc. Eg:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Designing distributed caches&lt;/li&gt;
+  &lt;li&gt;Designing data pipelines&lt;/li&gt;
+  &lt;li&gt;Designing simple load balancers&lt;/li&gt;
+  &lt;li&gt;MapReduce and similar data processing patterns etc&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some resources and content around system design&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/&quot;&gt;Designing Data Intensive Applications&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://azure.microsoft.com/en-in/resources/designing-distributed-systems/&quot;&gt;Designing Distributed Systems&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.oreilly.com/library/view/design-it/9781680502923/&quot;&gt;Design It!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/donnemartin/system-design-primer&quot;&gt;https://github.com/donnemartin/system-design-primer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/relogX/system-design-questions&quot;&gt;https://github.com/relogX/system-design-questions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;compilers-interpreters-and-parsers&quot;&gt;Compilers, Interpreters and Parsers&lt;/h3&gt;
+
+&lt;p&gt;This is another super interesting field to explore which broadens your understanding of various tools that you use on a daily basis. Start with learning about parsers and slowly move your way up to interpreters and compilers. Don’t start with the Aho, Ullman (the dragon book) directly, it’s a bit too hard for beginners and people who want to get their hands dirty.&lt;/p&gt;
+
+&lt;p&gt;Some amazing resources to get started&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cs.nott.ac.uk/~pszgmh/parsing.pdf&quot;&gt;Graham Hutton’s “Higher Order Functions for Parsing”&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://norvig.com/lispy.html&quot;&gt;Writing a Lisp Interpreter in Python&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://craftinginterpreters.com/&quot;&gt;Crafting Interpreters by Robert Nystrom&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Once you are confident, take a stab at writing a JSON or YAML parser. Learn about Recursive Descent parsers. You can also try writing these compilers/interpreters in functional languages like Haskell or OCaml.&lt;/p&gt;
+
+&lt;h3 id=&quot;algorithmic-analysis-and-algorithmic-problems&quot;&gt;Algorithmic Analysis and Algorithmic Problems&lt;/h3&gt;
+
+&lt;p&gt;Very very important interview skill, this is what is asked in most interviews. This is all the rage you see online regarding “cracking” tech interviews. The whole universe of problems on LeetCode, CodeForces etc. comes under this. The main skill here is the ability to understand and reason about algorithms and algorithmic complexity.&lt;/p&gt;
+
+&lt;p&gt;There are enough resources and content online about improving this skill. I’ll add some famous one’s here:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://leetcode.com/&quot;&gt;https://leetcode.com/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/MTrajK/coding-problems&quot;&gt;https://github.com/MTrajK/coding-problems&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://adventofcode.com/&quot;&gt;https://adventofcode.com/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://projecteuler.net/&quot;&gt;https://projecteuler.net/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There are many FAANG bhaiyas and didis on YouTube to guide you on how to acquire this skill and get better at it.&lt;/p&gt;
+
+&lt;h3 id=&quot;in-conclusion&quot;&gt;In Conclusion&lt;/h3&gt;
+
+&lt;p&gt;I know the list is massive and overwhelming, but you don’t to have to learn all of this in one day or even a year, you can keep learning and expanding your knowledge at your own pace. You can pick special topics and go really deep into what interests you the most.&lt;/p&gt;
+
+&lt;p&gt;I’m a big fan and believer of Peter Norvig’s “&lt;a href=&quot;https://norvig.com/21-days.html&quot;&gt;Teach Yourself Programming in 10 Years&lt;/a&gt;” and I think this is the kind of map someone wanting to grow their technical skill would greatly benefit from.&lt;/p&gt;
+
+&lt;p&gt;There is a lot of advice online on how to clear your interviews and get into companies. Just wanted to shed some light on topics that you need to be good at once you start your job and start building things.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Vim Cheatsheet</title>
+   <link href="https://junaidrahim.in/2021/07/15/vim-cheatsheet/"/>
+   <updated>2021-07-15T00:00:00+00:00</updated>
+   <id>https://junaidrahim.in/2021/07/15/vim-cheatsheet</id>
+   <content type="html">&lt;h2 id=&quot;general-commands&quot;&gt;General Commands&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;O&lt;/code&gt; - put a line above&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;t!&lt;/code&gt; go to the immediate left of !&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;f!&lt;/code&gt; go on !&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;%&lt;/code&gt; toggle between opening and closing brackets&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cw&lt;/code&gt; - change word, get rid of the word and drop in insert mode&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;D&lt;/code&gt; - to delete the rest of the line&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C&lt;/code&gt; - delete the rest of the line and drop in insert mode&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ct}&lt;/code&gt; - delete everything up until } and drop in insert&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dt/&lt;/code&gt; - delete till /, or any char for that matter&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*&lt;/code&gt; - take the cursor to the same word, use it to drop to all the places the same word exists&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zz&lt;/code&gt; - center the cursor vertically&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;a&lt;/code&gt; - drop in insert and move one position right&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A&lt;/code&gt; - go to the end of the line&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;10x&lt;/code&gt; - delete 10 chars to the right&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~&lt;/code&gt; - swap the case of the character&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;5~&lt;/code&gt; - swap the case of the next 5 characters&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.&lt;/code&gt; - repeat the last command&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rt&lt;/code&gt; - replace the current character with t&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;r3o&lt;/code&gt; - replace the next 3 letters with o&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;gt;&amp;gt;&lt;/code&gt; - indent that line forward&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;&amp;lt;&lt;/code&gt; - indent that line backward&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;macros&quot;&gt;Macros&lt;/h2&gt;
+
+&lt;p&gt;Record keystrokes and replay them&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;q&lt;/code&gt; to start recording a macro, and then press the key you want to save the macro to, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;qw&lt;/code&gt; will start recording a macro for key &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;w&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;press &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;q&lt;/code&gt; again to stop recording the macro, to replay the macro, press &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;@w&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;20@w&lt;/code&gt; to run the macro on the next 20 lines&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;searching&quot;&gt;Searching&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/&lt;/code&gt; to start searching, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;n&lt;/code&gt; to go to the word, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;N&lt;/code&gt; to go back&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+ </entry>
+ 
+
+</feed>

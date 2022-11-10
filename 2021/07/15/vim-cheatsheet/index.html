@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    Vim Cheatsheet &middot; Junaid Rahim
+  </title>
+
+  
+  <link rel="canonical" href="https://junaidrahim.in/2021/07/15/vim-cheatsheet/">
+  
+
+  <link rel="stylesheet" href="https://junaidrahim.in/public/css/poole.css">
+  <link rel="stylesheet" href="https://junaidrahim.in/public/css/syntax.css">
+  <link rel="stylesheet" href="https://junaidrahim.in/public/css/lanyon.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
+
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://junaidrahim.in/public/apple-touch-icon-precomposed.png">
+  <link rel="shortcut icon" href="https://junaidrahim.in/public/favicon.ico">
+
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="https://junaidrahim.in/atom.xml">
+
+  
+</head>
+
+
+  <body>
+
+    <!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
+     styles, `#sidebar-checkbox` for behavior. -->
+<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-item">
+    <p>Hey, I'm Junaid. <br> I'm currently building systems and data pipelines at <a href='https://atlan.com'>Atlan</a>.</p>
+  </div>
+
+  <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="https://junaidrahim.in/">Blog</a>
+
+    
+
+    
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="https://junaidrahim.in/about/">About</a>
+        
+      
+    
+      
+    
+      
+        
+          <a class="sidebar-nav-item" href="https://junaidrahim.in/contact/">Contact</a>
+        
+      
+    
+  </nav>
+</div>
+
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <h3 class="masthead-title">
+            <a href="/" title="Blog">Junaid Rahim</a>
+            <small></small>
+          </h3>
+        </div>
+      </div>
+
+      <div class="container content">
+        <div class="post">
+  <h1 class="post-title">Vim Cheatsheet</h1>
+  <span class="post-date">15 Jul 2021</span>
+  <h2 id="general-commands">General Commands</h2>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">O</code> - put a line above</li>
+  <li><code class="language-plaintext highlighter-rouge">t!</code> go to the immediate left of !</li>
+  <li><code class="language-plaintext highlighter-rouge">f!</code> go on !</li>
+  <li><code class="language-plaintext highlighter-rouge">%</code> toggle between opening and closing brackets</li>
+  <li><code class="language-plaintext highlighter-rouge">cw</code> - change word, get rid of the word and drop in insert mode</li>
+  <li><code class="language-plaintext highlighter-rouge">D</code> - to delete the rest of the line</li>
+  <li><code class="language-plaintext highlighter-rouge">C</code> - delete the rest of the line and drop in insert mode</li>
+  <li><code class="language-plaintext highlighter-rouge">ct}</code> - delete everything up until } and drop in insert</li>
+  <li><code class="language-plaintext highlighter-rouge">dt/</code> - delete till /, or any char for that matter</li>
+  <li><code class="language-plaintext highlighter-rouge">*</code> - take the cursor to the same word, use it to drop to all the places the same word exists</li>
+  <li><code class="language-plaintext highlighter-rouge">zz</code> - center the cursor vertically</li>
+  <li><code class="language-plaintext highlighter-rouge">a</code> - drop in insert and move one position right</li>
+  <li><code class="language-plaintext highlighter-rouge">A</code> - go to the end of the line</li>
+  <li><code class="language-plaintext highlighter-rouge">10x</code> - delete 10 chars to the right</li>
+  <li><code class="language-plaintext highlighter-rouge">~</code> - swap the case of the character</li>
+  <li><code class="language-plaintext highlighter-rouge">5~</code> - swap the case of the next 5 characters</li>
+  <li><code class="language-plaintext highlighter-rouge">.</code> - repeat the last command</li>
+  <li><code class="language-plaintext highlighter-rouge">rt</code> - replace the current character with t</li>
+  <li><code class="language-plaintext highlighter-rouge">r3o</code> - replace the next 3 letters with o</li>
+  <li><code class="language-plaintext highlighter-rouge">&gt;&gt;</code> - indent that line forward</li>
+  <li><code class="language-plaintext highlighter-rouge">&lt;&lt;</code> - indent that line backward</li>
+</ul>
+
+<h2 id="macros">Macros</h2>
+
+<p>Record keystrokes and replay them</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">q</code> to start recording a macro, and then press the key you want to save the macro to, <code class="language-plaintext highlighter-rouge">qw</code> will start recording a macro for key <code class="language-plaintext highlighter-rouge">w</code></li>
+  <li>press <code class="language-plaintext highlighter-rouge">q</code> again to stop recording the macro, to replay the macro, press <code class="language-plaintext highlighter-rouge">@w</code></li>
+  <li><code class="language-plaintext highlighter-rouge">20@w</code> to run the macro on the next 20 lines</li>
+</ul>
+
+<h2 id="searching">Searching</h2>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">/</code> to start searching, <code class="language-plaintext highlighter-rouge">n</code> to go to the word, <code class="language-plaintext highlighter-rouge">N</code> to go back</li>
+</ul>
+
+</div>
+
+
+<div class="related">
+  <h2>Related posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2022/06/07/atlans-internship-experience/">
+            Atlan's Backend Internship Experience
+            <small>07 Jun 2022</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2022/05/07/backend-internship-interview-experience-at-atlan/">
+            Interview Experience - Backend Engineering Internship at Atlan
+            <small>07 May 2022</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2021/12/15/the-well-rounded-engineer/">
+            The Well Rounded Engineer
+            <small>15 Dec 2021</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+
+      </div>
+    </div>
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script src='/public/js/script.js'></script>
+  </body>
+</html>
