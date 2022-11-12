@@ -1,4 +1,4 @@
-- source for [junaidrahim.dev](https://junaidrahim.dev)
+source for [junaidrahim.dev](https://junaidrahim.dev)
 
 ### Setup
 
