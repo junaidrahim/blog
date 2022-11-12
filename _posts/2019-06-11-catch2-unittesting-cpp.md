@@ -1,7 +1,7 @@
 ---
 title: A guide to using Catch2 for Unit Testing in C++
 layout: post
-preamble: Just a stupid cheatsheet for quick vim motions.
+preamble: Almost all programming languages have some library for unit testing. This article is a guide to an awesome C++ header only test framework called catch2.
 ---
 
 ## Unit Testing is awesome.

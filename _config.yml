@@ -4,7 +4,7 @@ tagline:             ''
 description:         "Hey, I'm Junaid. <br> I'm currently building systems and data pipelines at <a href='https://atlan.com'>Atlan</a>."
 url:                 https://junaidrahim.dev
 baseurl:             ''
-paginate:            5
+paginate:            20
 permalink:           pretty
 
 # About/contact

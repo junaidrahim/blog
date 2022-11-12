@@ -1,7 +1,7 @@
 ---
 title: Smart Pointers in C++
 layout: post
-preamble: Just a stupid cheatsheet for quick vim motions.
+preamble: Please don’t dig yourself a grave with raw pointers
 ---
 
 > Please don’t dig yourself a grave with raw pointers
