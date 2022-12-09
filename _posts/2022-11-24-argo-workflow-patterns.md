@@ -1,6 +1,7 @@
 ---
 title: Design Patterns with Argo Workflows
 layout: post
+draft: true
 ---
 
 - What are the various design patterns for types of workflows we build
